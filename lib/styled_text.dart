@@ -27,6 +27,7 @@ class MainPageText extends StatelessWidget {
     return Text(
       text,
       style: const TextStyle(
+        fontWeight: FontWeight.w400,
         fontSize: 25,
         color: Colors.white70,
       ),
