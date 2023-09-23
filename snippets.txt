@@ -1,0 +1,16 @@
+another way of referencing another screen
+ // Widget? activeScreen;
+  //
+  // @override
+  // void initState() {
+  //   super.initState();
+  //   activeScreen = StartScreen(startQuiz: switchScreen);
+  // }
+
+  // void switchScreen() {
+  //   setState(() {
+  //     activeScreen = const QuestionsScreen();
+  //   });
+  // }
+
+and you can also use ternary operators
