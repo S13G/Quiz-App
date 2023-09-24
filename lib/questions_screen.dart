@@ -31,7 +31,7 @@ class _QuestionsStateScreen extends State<QuestionsScreen> {
             height: 30,
           ),
           currentQuestion.answers.map((answer) => {
-            return AnswerButton(answerText: answer, onTap: () {},);
+            return AnswerButton(answerText: answer, onTap: null,);
           })
           AnswerButton(
             answerText: currentQuestion.answers[0],
