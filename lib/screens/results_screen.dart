@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:quiz_app/data/questions.dart';
-import 'package:quiz_app/questions_summary.dart';
-import 'package:quiz_app/styled_text.dart';
+import 'package:quiz_app/main/questions_summary.dart';
+import 'package:quiz_app/misc/styled_text.dart';
 
+// ignore: must_be_immutable
 class ResultsScreen extends StatelessWidget {
   ResultsScreen({
     super.key,
@@ -67,7 +68,7 @@ class ResultsScreen extends StatelessWidget {
                 Icons.refresh,
                 color: Colors.white,
               ),
-              label: const StyledText(text: 'Restart Quiz'),
+              label: const StyledText(text: 'Restart Quiz!'),
             ),
           ],
         ),
