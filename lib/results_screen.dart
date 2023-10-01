@@ -50,6 +50,7 @@ class ResultsScreen extends StatelessWidget {
               style: GoogleFonts.lato(
                 fontSize: 20,
                 color: Colors.white,
+                fontWeight: FontWeight.bold,
               ),
               textAlign: TextAlign.center,
             ),
@@ -60,19 +61,13 @@ class ResultsScreen extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            OutlinedButton.icon(
+            TextButton.icon(
               onPressed: clearAnswers,
-              style: OutlinedButton.styleFrom(
-                side: const BorderSide(
-                  color: Colors.white, // Border color
-                  width: 1, // Border width
-                ),
-              ),
               icon: const Icon(
-                Icons.arrow_right_alt,
+                Icons.refresh,
                 color: Colors.white,
               ),
-              label: const StyledText(text: 'Start Quiz'),
+              label: const StyledText(text: 'Restart Quiz'),
             ),
           ],
         ),
